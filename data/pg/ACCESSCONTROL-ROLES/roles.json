@@ -213,9 +213,24 @@
       "description": "USER_REGISTER"
     },
     {
-      "code": "USER_APPROVER",
-      "name": "USER_APPROVER",
-      "description": "USER_APPROVER"
+      "code": "ADVOCATE_APPROVER",
+      "name": "ADVOCATE_APPROVER",
+      "description": "User will be able to approve new advocate registration/update applications"
+    },
+    {
+      "code": "ADVOCATE_CLERK_APPROVER",
+      "name": "ADVOCATE_CLERK_APPROVER",
+      "description": "User will be able to approve new advocate-clerk registration/update applications"
+    },
+    {
+      "code": "ADVOCATE_ROLE",
+      "name": "ADVOCATE_ROLE",
+      "description": "User will be assigned an advocate role"
+    },
+    {
+      "code": "ADVOCATE_CLERK_ROLE",
+      "name": "ADVOCATE_CLERK_ROLE",
+      "description": "User will be assigned an advocate-clerk role"
     }
   ]
 }
