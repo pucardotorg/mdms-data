@@ -231,7 +231,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1741,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
       "actionid": 1741,
       "actioncode": "",
       "tenantId": "pg"
@@ -255,7 +261,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
       "actionid": 1743,
       "actioncode": "",
       "tenantId": "pg"
@@ -273,7 +285,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
       "actionid": 1729,
       "actioncode": "",
       "tenantId": "pg"
@@ -285,7 +303,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1742,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
       "actionid": 1742,
       "actioncode": "",
       "tenantId": "pg"
@@ -309,7 +333,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
       "actionid": 1730,
       "actioncode": "",
       "tenantId": "pg"
@@ -447,13 +477,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_APPROVER",
       "actionid": 2554,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "USER_APPROVER",
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
       "actionid": 2555,
       "actioncode": "",
       "tenantId": "pg"
