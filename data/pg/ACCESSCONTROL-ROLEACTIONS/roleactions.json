@@ -52,18 +52,18 @@
     },
     {
       "rolecode": "SUPERUSER",
+      "actionid": 870,
+      "actioncode": "",
+      "tenantid": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
       "actionid": 2548,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid": 2548,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 2548,
       "actioncode": "",
       "tenantId": "pg"
@@ -82,12 +82,6 @@
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid": 2549,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 2549,
       "actioncode": "",
       "tenantId": "pg"
@@ -106,6 +100,18 @@
     },
     {
       "rolecode": "SUPERUSER",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
       "actionid": 604,
       "actioncode": "",
       "tenantId": "pg"
