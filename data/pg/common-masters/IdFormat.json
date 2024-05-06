@@ -722,9 +722,13 @@
             "format": "CLERK-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
             "idname": "clerk.id"
         },
-         {
+        {
             "format": "HR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
             "idname": "hearing.sh"
+        },
+        {
+            "format": "HRR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "reschedule.sh"
         }
     ]
 }
