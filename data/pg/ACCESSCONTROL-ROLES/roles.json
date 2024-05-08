@@ -798,6 +798,21 @@
       "description": "HEARING_CLOSER"
     },
     {
+      "code": "HEARING_CANCELLER",
+      "name": "HEARING_CANCELLER",
+      "description": "HEARING_CANCELLER"
+    },
+    {
+      "code": "HEARING_REQUEST_APPROVER",
+      "name": "HEARING_REQUEST_APPROVER",
+      "description": "HEARING_REQUEST_APPROVER"
+    },
+    {
+      "code": "HEARING_REQUEST_REJECTOR",
+      "name": "HEARING_REQUEST_REJECTOR",
+      "description": "HEARING_REQUEST_REJECTOR"
+    },
+    {
       "code": "ORDER_CREATOR",
       "name": "ORDER_CREATOR",
       "description": "ORDER_CREATOR"
