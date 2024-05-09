@@ -1,0 +1,97 @@
+{
+  "tenantId": "pg",
+  "moduleName": "INBOX",
+  "InboxQueryConfiguration": [
+    {
+      "module": "Advocate services",
+      "index": "advocate-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "id",
+          "path": "Data.advocateDetails.id.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.advocateDetails.applicationNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "barRegistrationNumber",
+          "path": "Data.advocateDetails.barRegistrationNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "advocateType",
+          "path": "Data.advocateDetails.advocateType.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "individualId",
+          "path": "Data.advocateDetails.individualId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "organisationID",
+          "path": "Data.advocateDetails.organisationID.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "isActive",
+          "path": "Data.advocateDetails.isActive.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.advocateDetails.createdBy.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedBy",
+          "path": "Data.advocateDetails.lastModifiedBy.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdTime",
+          "path": "Data.advocateDetails.createdTime.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedTime",
+          "path": "Data.advocateDetails.lastModifiedTime.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "additionalDetails",
+          "path": "Data.advocateDetails.additionalDetails.keyword",
+          "isMandatory": false
+        }
+
+      ],
+      "sortBy": {
+        "path": "Data.advocateDetails.lastModifiedTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.advocateDetails.id",
+        "Data.advocateDetails.applicationNumber",
+        "Data.advocateDetails.barRegistrationNumber",
+        "Data.advocateDetails.advocateType",
+        "Data.advocateDetails.individualId",
+        "Data.advocateDetails.isActive",
+        "Data.advocateDetails.lastModifiedBy",
+        "Data.advocateDetails.createdTime",
+        "Data.advocateDetails.lastModifiedTime",
+        "Data.advocateDetails.additionalDetails"
+      ]
+    }
+  ]
+}
