@@ -75,7 +75,12 @@
     {
       "code": "WORKFLOW_ADMIN",
       "name": "Workflow Admin",
-      "description": "Pers0n who has authority to abandon or edit workflow"
+      "description": "Person who has authority to abandon or edit workflow"
+    },
+    {
+      "code": "WORKFLOW_ABANDON",
+      "name": "Workflow Abandon",
+      "description": "Person who has authority to abandon workflow"
     },
     {
       "code": "HEARING_CREATOR",
