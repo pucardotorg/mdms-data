@@ -169,7 +169,7 @@
         }
       ],
       "sortBy": {
-        "path": "Data.auditDetails.lastModifiedTime",
+        "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
       "sourceFilterPathList": [
