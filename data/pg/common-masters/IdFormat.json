@@ -19,7 +19,7 @@
             "idname": "case.filing_number"
         },
         {
-            "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
             "idname": "order.order_number"
         }
     ]
