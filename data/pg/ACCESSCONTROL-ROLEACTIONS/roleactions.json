@@ -759,8 +759,14 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "APPLICATION_CREATOR",
+      "rolecode": "APPLICATION_VIEWER",
       "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2570,
       "actioncode": "",
       "tenantId": "pg"
     },
