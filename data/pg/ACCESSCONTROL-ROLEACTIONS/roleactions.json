@@ -741,6 +741,60 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "APPLICATION_CREATOR",
+      "actionid": 2567,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2568,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2570,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2570,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "DEPOSITION_CREATOR",
       "actionid": 2571,
       "actioncode": "",

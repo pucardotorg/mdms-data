@@ -658,6 +658,50 @@
          "path": ""
       },
       {
+         "id": 2567,
+         "name": "Application Create",
+         "url": "/application/v1/create",
+         "displayName": "Application Create",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2568,
+         "name": "Application Update",
+         "url": "/application/v1/update",
+         "displayName": "Application Update",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2569,
+         "name": "Application Search",
+         "url": "/application/v1/search",
+         "displayName": "Application Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2570,
+         "name": "Application Exists",
+         "url": "/application/v1/exists",
+         "displayName": "Application Exists",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
          "id": 2571,
          "name":"Evidence Create",
          "url": "/artifacts/v1/_create",
@@ -700,6 +744,17 @@
          "serviceCode": "filestore url",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 701,
+         "name": "Delete Token",
+         "url": "/user/_logout",
+         "displayName": "Delete Token",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "ADMIN",
+         "code": "null",
+         "path": "Administration.Delete Token"
       }
    ]
 }
