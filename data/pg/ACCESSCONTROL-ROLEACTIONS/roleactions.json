@@ -739,6 +739,30 @@
       "actionid": 2566,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_CREATOR",
+      "actionid": 2571,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_VIEWER",
+      "actionid": 2572,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_EDITOR",
+      "actionid": 2572,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_EDITOR",
+      "actionid": 2573,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
