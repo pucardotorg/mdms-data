@@ -67,6 +67,28 @@
           "code": "pg"
         }
       ]
+    },
+       {
+      "module": "Workbench",
+      "code": "Workbench",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    },
+       {
+      "module": "HRMS",
+      "code": "HRMS",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
     }
   ]
 }
