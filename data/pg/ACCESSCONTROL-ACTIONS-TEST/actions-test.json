@@ -858,17 +858,6 @@
       "code": "null",
       "path": ""
    },
-      {
-         "id": 2583,
-         "name": "Task Create",
-         "url": "/task/v1/create",
-         "displayName": "Task Create",
-         "orderNumber": 0,
-         "enabled": false,
-         "serviceCode": "task",
-         "code": "null",
-         "path": ""
-      },
        {
       "id": 2583,
       "name": "SCHEMA",
