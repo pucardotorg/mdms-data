@@ -16,8 +16,8 @@
       "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
     },
     {
-      "businessService": "CaseEfiling",
-      "code": "CE",
+      "businessService": "case",
+      "code": "case",
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
