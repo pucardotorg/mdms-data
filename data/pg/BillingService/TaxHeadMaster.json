@@ -14,9 +14,9 @@
     },
     {
       "category": "ADVANCE_COLLECTION",
-      "service": "CE",
+      "service": "case",
       "name": "Case Efiling advance carry forward",
-      "code": "CE_ADVANCE_CARRYFORWARD",
+      "code": "CASE_ADVANCE_CARRYFORWARD",
       "isDebit": true,
       "isActualDemand": false,
       "order": "0",
