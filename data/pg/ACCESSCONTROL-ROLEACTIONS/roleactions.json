@@ -1249,9 +1249,67 @@
       "actionid": 2619,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_CREATOR",
+      "actionid": 2620,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_APPROVER",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_CLOSER",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_REJECTOR",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_RESPONDER",
+      "actionid": 2616,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_REASSIGN",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_UPDATOR",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_APPROVER",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_CLOSER",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TASK_REJECTOR",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "pg"
     }
-
-
   ]
 }
 
