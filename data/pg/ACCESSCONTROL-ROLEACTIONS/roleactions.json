@@ -958,12 +958,6 @@
     },
     {
       "rolecode": "WORKFLOW_ADMIN",
-      "actionid": 2575,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "WORKFLOW_ADMIN",
       "actionid": 2576,
       "actioncode": "",
       "tenantId": "pg"
