@@ -1,6 +1,6 @@
 {
   "tenantId": "pg",
-  "moduleName": "eFilingConfigAdvocate",
+  "moduleName": "commonUiConfig",
   "advocateDetailsConfig": {
     "formconfig": [
       {
