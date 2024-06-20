@@ -22,7 +22,10 @@
                   "config": [
                     {
                       "type": "title",
-                      "value": ["firstName", "lastName"],
+                      "value": [
+                        "firstName",
+                        "lastName"
+                      ],
                       "badgeType": "complainantType.name"
                     },
                     {
@@ -54,7 +57,10 @@
                   "config": [
                     {
                       "type": "title",
-                      "value": ["respondentFirstName", "respondentLastName"],
+                      "value": [
+                        "respondentFirstName",
+                        "respondentLastName"
+                      ],
                       "badgeType": "respondentType.name"
                     },
                     {
@@ -172,7 +178,9 @@
                     {
                       "type": "image",
                       "label": "CS_DOCUMENT",
-                      "value": ["debtLiabilityFileUpload.document"]
+                      "value": [
+                        "debtLiabilityFileUpload.document"
+                      ]
                     }
                   ],
                   "data": {}
@@ -240,7 +248,9 @@
                     {
                       "type": "image",
                       "label": "CS_DOCUMENT",
-                      "value": ["condonationFileUpload.document"]
+                      "value": [
+                        "condonationFileUpload.document"
+                      ]
                     }
                   ],
                   "data": {}
@@ -264,7 +274,10 @@
                   "config": [
                     {
                       "type": "title",
-                      "value": ["firstName", "lastName"]
+                      "value": [
+                        "firstName",
+                        "lastName"
+                      ]
                     },
                     {
                       "type": "phonenumber",
@@ -330,7 +343,9 @@
                     {
                       "type": "image",
                       "label": "CS_ID_PROOF",
-                      "value": ["vakalatnamaFileUpload.document"]
+                      "value": [
+                        "vakalatnamaFileUpload.document"
+                      ]
                     }
                   ],
                   "data": {}

@@ -20,7 +20,6 @@
                   "masterName": "commonUiConfig",
                   "moduleName": "patternValidation"
                 },
-
                 "minLength": 2,
                 "title": "",
                 "patternType": "Name"

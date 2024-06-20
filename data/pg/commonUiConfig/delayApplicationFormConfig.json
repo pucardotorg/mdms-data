@@ -46,7 +46,9 @@
       },
       {
         "dependentKey": {
-          "delayApplicationType": ["showForm"]
+          "delayApplicationType": [
+            "showForm"
+          ]
         },
         "body": [
           {
@@ -69,7 +71,9 @@
       },
       {
         "dependentKey": {
-          "delayApplicationType": ["showForm"]
+          "delayApplicationType": [
+            "showForm"
+          ]
         },
         "body": [
           {
@@ -92,7 +96,9 @@
       },
       {
         "dependentKey": {
-          "delayApplicationType": ["showForm"]
+          "delayApplicationType": [
+            "showForm"
+          ]
         },
         "body": [
           {
@@ -110,7 +116,10 @@
                   "uploadGuidelines": "UPLOAD_DOC_50",
                   "maxFileSize": 50,
                   "maxFileErrorMessage": "CS_FILE_LIMIT_1_MB",
-                  "fileTypes": ["JPG", "PDF"]
+                  "fileTypes": [
+                    "JPG",
+                    "PDF"
+                  ]
                 }
               ]
             }
