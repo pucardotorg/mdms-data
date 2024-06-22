@@ -241,7 +241,7 @@
                     "validation": {
                       "required": true,
                       "pattern": {
-                        "patternType": "contact",
+                        "patternType": "email",
                         "masterName": "commonUiConfig",
                         "moduleName": "patternValidation"
                       },
