@@ -184,41 +184,6 @@
         },
         {
           "dependentKey": {
-            "phonenumbers": [
-              "mobileNumber"
-            ]
-          },
-          "head": "WHATSAPP_SEND_CONFIRMATION",
-          "body": [
-            {
-              "type": "radio",
-              "key": "whatsAppConfirmation",
-              "withoutLabel": true,
-              "isMandatory": true,
-              "populators": {
-                "type": "radioButton",
-                "name": "whatsAppConfirmation",
-                "optionsKey": "name",
-                "error": "CORE_REQUIRED_FIELD_ERROR",
-                "required": false,
-                "isMandatory": true,
-                "isDependent": true,
-                "options": [
-                  {
-                    "code": "YES",
-                    "name": "Yes"
-                  },
-                  {
-                    "code": "NO",
-                    "name": "No"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
             "respondentType": [
               "commonFields"
             ]
@@ -250,41 +215,6 @@
                   }
                 ],
                 "validation": {}
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
-            "emails": [
-              "emailId"
-            ]
-          },
-          "head": "SEND_EMAIL_CONFIRMATION",
-          "body": [
-            {
-              "type": "radio",
-              "key": "emailConfirmation",
-              "withoutLabel": true,
-              "isMandatory": true,
-              "populators": {
-                "name": "emailConfirmation",
-                "type": "radioButton",
-                "optionsKey": "name",
-                "error": "CORE_REQUIRED_FIELD_ERROR",
-                "required": false,
-                "isMandatory": true,
-                "isDependent": true,
-                "options": [
-                  {
-                    "code": "YES",
-                    "name": "Yes"
-                  },
-                  {
-                    "code": "NO",
-                    "name": "No"
-                  }
-                ]
               }
             }
           ]
