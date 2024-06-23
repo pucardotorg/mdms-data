@@ -50,7 +50,7 @@
                         "value": "addressDetails"
                       },
                       {
-                        "type": "address",
+                        "type": "text",
                         "label": "company_Name",
                         "dependentOn": "complainantType.code",
                         "dependentValue": "REPRESENTATIVE",
@@ -98,7 +98,7 @@
                         "value": "addressDetails"
                       },
                       {
-                        "type": "address",
+                        "type": "text",
                         "label": "company_Name",
                         "dependentOn": "complainantType.code",
                         "dependentValue": "REPRESENTATIVE",
