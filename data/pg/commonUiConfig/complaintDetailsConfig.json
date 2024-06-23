@@ -5,6 +5,31 @@
     {
       "formconfig": [
         {
+          "dependentKey": {
+            "complainantVerification": [
+              "isUserVerified"
+            ]
+          },
+          "body": [
+            {
+              "type": "component",
+              "component": "SelectCustomNote",
+              "key": "personalDetailsNote",
+              "withoutLabel": true,
+              "populators": {
+                "inputs": [
+                  {
+                    "infoHeader": "CS_PLEASE_COMMON_NOTE",
+                    "infoText": "CS_PLEASE_CONTACT_NYAY_MITRA_TEXT",
+                    "infoTooltipMessage": "CS_NOTE_TOOLTIP_RESPONDENT_PERSONAL_DETAILS",
+                    "type": "InfoComponent"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
           "head": "SELECT_COMPLAINANT_TYPE",
           "body": [
             {
