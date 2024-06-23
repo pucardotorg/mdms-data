@@ -117,7 +117,8 @@
                         "dependentOn": "complainantType.code",
                         "dependentValue": "REPRESENTATIVE",
                         "value": [
-                          "companyDetailsUpload.document"
+                          "companyDetailsUpload.document",
+                          "inquiryAffidavitFileUpload.document"
                         ]
                       }
                     ],
