@@ -189,6 +189,61 @@
         "Data.currentProcessInstance",
         "Data.individual"
       ]
+    },
+    {
+      "module": "Pending Tasks Service",
+      "index": "pending-tasks-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "id",
+          "path": "id.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "entityType",
+          "path": "entityType",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "referenceId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "status",
+          "path": "status",
+          "isMandatory": false
+        },
+        {
+          "name": "assignedTo",
+          "path": "assignedTo.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "cnr",
+          "path": "cnr.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "isCompleted",
+          "path": "isCompleted",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "isCompleted",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "id",
+        "entityType",
+        "referenceId",
+        "status",
+        "assignedTo",
+        "cnr",
+        "isCompleted"
+      ]
     }
   ]
 }
