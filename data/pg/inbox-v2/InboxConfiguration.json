@@ -229,6 +229,41 @@
           "name": "isCompleted",
           "path": "Data.isCompleted",
           "isMandatory": false
+        },
+        {
+          "name": "assignedRole",
+          "path": "Data.assignedRole",
+          "isMandatory": false
+        },
+        {
+          "name": "stateSla",
+          "path": "Data.stateSla",
+          "isMandatory": false
+        },
+        {
+          "name": "businessServiceSla",
+          "path": "Data.businessServiceSla",
+          "isMandatory": false
+        },
+        {
+          "name": "filingNumber",
+          "path": "Data.filingNumber",
+          "isMandatory": false
+        },
+        {
+          "name": "caseTitle",
+          "path": "Data.caseTitle",
+          "isMandatory": false
+        },
+        {
+          "name": "stage",
+          "path": "Data.stage",
+          "isMandatory": false
+        },
+        {
+          "name": "subStage",
+          "path": "Data.subStage",
+          "isMandatory": false
         }
       ],
       "sortBy": {
