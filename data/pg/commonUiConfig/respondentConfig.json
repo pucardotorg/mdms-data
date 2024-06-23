@@ -36,7 +36,7 @@
                   },
                   {
                     "code": "REPRESENTATIVE",
-                    "name": "Representative of an Entity",
+                    "name": "Entity",
                     "showCompanyDetails": true,
                     "commonFields": true,
                     "isVerified": true,
@@ -50,6 +50,14 @@
         },
         {
           "head": "CS_RESPONDENT_NAME",
+          "updateLabel": {
+            "key": "head",
+            "value": "CS_COMMON_ENTITY_DETAIL"
+          },
+          "defaultLabel": {
+            "key": "head",
+            "value": "CS_RESPONDENT_NAME"
+          },
           "dependentKey": {
             "respondentType": [
               "commonFields"

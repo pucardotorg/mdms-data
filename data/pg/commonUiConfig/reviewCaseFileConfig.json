@@ -45,7 +45,23 @@
                       {
                         "type": "address",
                         "label": "ADDRESS",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "INDIVIDUAL",
                         "value": "addressDetails"
+                      },
+                      {
+                        "type": "address",
+                        "label": "company_Name",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "REPRESENTATIVE",
+                        "value": "companyName"
+                      },
+                      {
+                        "type": "address",
+                        "label": "COMPANY_ADDRESS",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "REPRESENTATIVE",
+                        "value": "addressCompanyDetails"
                       }
                     ],
                     "data": {}
@@ -77,7 +93,32 @@
                       {
                         "type": "address",
                         "label": "ADDRESS",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "INDIVIDUAL",
                         "value": "addressDetails"
+                      },
+                      {
+                        "type": "address",
+                        "label": "company_Name",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "REPRESENTATIVE",
+                        "value": "companyName"
+                      },
+                      {
+                        "type": "address",
+                        "label": "COMPANY_ADDRESS",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "REPRESENTATIVE",
+                        "value": "addressCompanyDetails"
+                      },
+                      {
+                        "type": "image",
+                        "label": "ATTACHED_DOCUMENT",
+                        "dependentOn": "complainantType.code",
+                        "dependentValue": "REPRESENTATIVE",
+                        "value": [
+                          "companyDetailsUpload.document"
+                        ]
                       }
                     ],
                     "data": {}

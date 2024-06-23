@@ -94,6 +94,7 @@
             {
               "type": "date",
               "label": "CS_DATE_OF_ISSUANCE",
+              "labelChildren": "OutlinedInfoIcon",
               "isMandatory": true,
               "populators": {
                 "name": "issuanceDate",
@@ -126,6 +127,8 @@
             {
               "type": "text",
               "label": "CS_IFSC_CODE",
+              "labelChildren": "OutlinedInfoIcon",
+              "tooltipValue": "IFSC_CODE_SUGGESTION",
               "isMandatory": true,
               "populators": {
                 "validation": {
@@ -159,6 +162,7 @@
             {
               "type": "date",
               "label": "CS_DATE_OF_CHEQUE_DEPOSIT",
+              "labelChildren": "OutlinedInfoIcon",
               "isMandatory": true,
               "populators": {
                 "name": "depositDate",
