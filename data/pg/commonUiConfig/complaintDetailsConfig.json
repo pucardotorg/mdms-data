@@ -33,7 +33,7 @@
                   },
                   {
                     "code": "REPRESENTATIVE",
-                    "name": "Representative of an Entity",
+                    "name": "Entity",
                     "showCompanyDetails": true,
                     "isIndividual": false,
                     "commonFields": true,
@@ -76,6 +76,15 @@
                 "inputs": [
                   {
                     "label": "COMPLAINANT_ID",
+                    "updateLabelOn": "complainantType.showCompanyDetails",
+                    "updateLabel": {
+                      "key": "label",
+                      "value": "CS_ENTITY_ID"
+                    },
+                    "defaultLabel": {
+                      "key": "label",
+                      "value": "COMPLAINANT_ID"
+                    },
                     "name": "complainantId",
                     "verificationOn": "complainantVerification.isUserVerified"
                   }
@@ -94,6 +103,15 @@
             ]
           },
           "head": "CS_COMMON_COMPLAINANT_DETAIL",
+          "updateLabelOn": "complainantType.showCompanyDetails",
+          "updateLabel": {
+            "key": "head",
+            "value": "CS_COMMON_ENTITY_DETAIL"
+          },
+          "defaultLabel": {
+            "key": "head",
+            "value": "CS_COMMON_COMPLAINANT_DETAIL"
+          },
           "body": [
             {
               "type": "text",

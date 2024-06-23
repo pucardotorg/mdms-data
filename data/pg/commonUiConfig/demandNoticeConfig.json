@@ -41,6 +41,7 @@
             {
               "type": "date",
               "label": "CS_DATE_OF_ISSUANCE_LDN",
+              "labelChildren": "OutlinedInfoIcon",
               "isMandatory": true,
               "populators": {
                 "name": "dateOfIssuance",
@@ -60,6 +61,7 @@
             {
               "type": "date",
               "label": "CS_DATE_OF_DISPATCH_LDN",
+              "labelChildren": "OutlinedInfoIcon",
               "isMandatory": true,
               "populators": {
                 "name": "dateOfDispatch",
@@ -268,11 +270,6 @@
           ]
         },
         {
-          "dependentKey": {
-            "proofOfReply": [
-              "showProofOfReply"
-            ]
-          },
           "body": [
             {
               "type": "date",
@@ -327,6 +324,7 @@
             {
               "type": "date",
               "label": "CS_DATE_OF_ACCRUAL_LDN",
+              "labelChildren": "OutlinedInfoIcon",
               "isMandatory": true,
               "populators": {
                 "name": "dateOfAccrual",
