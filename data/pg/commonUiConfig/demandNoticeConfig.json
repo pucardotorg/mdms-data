@@ -173,11 +173,6 @@
           ]
         },
         {
-          "dependentKey": {
-            "proofOfService": [
-              "showProofOfAcknowledgment"
-            ]
-          },
           "body": [
             {
               "type": "date",
@@ -270,6 +265,11 @@
           ]
         },
         {
+          "dependentKey": {
+            "proofOfReply": [
+              "showProofOfReply"
+            ]
+          },
           "body": [
             {
               "type": "date",
