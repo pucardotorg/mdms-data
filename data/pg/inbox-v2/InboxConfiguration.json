@@ -196,53 +196,47 @@
       "allowedSearchCriteria": [
         {
           "name": "id",
-          "path": "id.keyword",
+          "path": "Data.id.keyword",
           "isMandatory": false
         },
         {
           "name": "entityType",
-          "path": "entityType",
+          "path": "Data.entityType",
           "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "referenceId",
-          "path": "referenceId.keyword",
+          "path": "Data.referenceId.keyword",
           "isMandatory": false
         },
         {
           "name": "status",
-          "path": "status",
+          "path": "Data.status",
           "isMandatory": false
         },
         {
           "name": "assignedTo",
-          "path": "assignedTo.keyword",
+          "path": "Data.assignedTo.keyword",
           "isMandatory": false
         },
         {
           "name": "cnr",
-          "path": "cnr.keyword",
+          "path": "Data.cnr.keyword",
           "isMandatory": false
         },
         {
           "name": "isCompleted",
-          "path": "isCompleted",
+          "path": "Data.isCompleted",
           "isMandatory": false
         }
       ],
       "sortBy": {
-        "path": "isCompleted",
+        "path": "Data.isCompleted",
         "defaultOrder": "ASC"
       },
       "sourceFilterPathList": [
-        "id",
-        "entityType",
-        "referenceId",
-        "status",
-        "assignedTo",
-        "cnr",
-        "isCompleted"
+        "Data"
       ]
     }
   ]
