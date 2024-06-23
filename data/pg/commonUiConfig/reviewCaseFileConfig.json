@@ -113,11 +113,10 @@
                       },
                       {
                         "type": "image",
-                        "label": "ATTACHED_DOCUMENT",
-                        "dependentOn": "complainantType.code",
-                        "dependentValue": "REPRESENTATIVE",
+                        "label": "CS_DOCUMENT",
                         "value": [
-                          "companyDetailsUpload.document"
+                          "companyDetailsUpload.document",
+                          "inquiryAffidavitFileUpload.document"
                         ]
                       }
                     ],
