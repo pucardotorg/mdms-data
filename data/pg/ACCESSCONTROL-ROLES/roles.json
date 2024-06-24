@@ -83,6 +83,11 @@
       "description": "Person who has authority to abandon or edit workflow"
     },
     {
+      "code": "WORKFLOW_ABANDON",
+      "name": "WORKFLOW_ABANDON",
+      "description": "Person who has authority to abandon or edit workflow"
+    },
+    {
       "code": "HEARING_CREATOR",
       "name": "HEARING_CREATOR",
       "description": "HEARING_CREATOR"
