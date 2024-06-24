@@ -370,7 +370,7 @@
                       },
                       {
                         "type": "text",
-                        "label": "CS_PRAYER_FOR_RELIEF_HEADER",
+                        "label": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
                         "value": "memorandumOfComplaint.text"
                       },
                       {
