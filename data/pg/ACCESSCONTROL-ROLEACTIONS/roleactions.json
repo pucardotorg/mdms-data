@@ -1309,6 +1309,60 @@
       "actionid": 2615,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_CREATOR",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_EDITOR",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "DEPOSITION_VIEWER",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_ROLE",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_ROLE",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
