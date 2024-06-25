@@ -1323,43 +1323,13 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "CASE_VIEWER",
-      "actionid": 2621,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DEPOSITION_CREATOR",
-      "actionid": 2621,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DEPOSITION_EDITOR",
-      "actionid": 2621,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "DEPOSITION_VIEWER",
-      "actionid": 2621,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "ADVOCATE_ROLE",
       "actionid": 2621,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "ADVOCATE_CLERK_ROLE",
-      "actionid": 2621,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CITIZEN",
+      "rolecode": "SUPERUSER",
       "actionid": 2621,
       "actioncode": "",
       "tenantId": "pg"
