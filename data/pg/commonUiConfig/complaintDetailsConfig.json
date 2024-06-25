@@ -30,51 +30,6 @@
           ]
         },
         {
-          "dependentKey": {
-            "complainantType": [
-              "commonFields"
-            ]
-          },
-          "body": [
-            {
-              "type": "component",
-              "component": "VerifyPhoneNumber",
-              "key": "complainantVerification",
-              "withoutLabel": true,
-              "label": "PHONE_NUMBER",
-              "name": "mobileNumber",
-              "disableConfigFields": [
-                "firstName",
-                "middleName",
-                "lastName",
-                "pincode",
-                "locationSearch",
-                "pincode",
-                "state",
-                "district",
-                "city",
-                "locality",
-                "addressDetails"
-              ],
-              "error": "ERR_HRMS_INVALID_MOB_NO",
-              "componentInFront": "+91",
-              "disableConfigKey": "isUserVerified",
-              "isMandatory": true,
-              "validation": {
-                "required": true,
-                "minLength": 10,
-                "maxLength": 10,
-                "pattern": {
-                  "patternType": "contact",
-                  "masterName": "commonUiConfig",
-                  "moduleName": "patternValidation"
-                }
-              },
-              "populators": {}
-            }
-          ]
-        },
-        {
           "head": "SELECT_COMPLAINANT_TYPE",
           "body": [
             {
@@ -125,6 +80,51 @@
                   "alignItems": "center"
                 }
               }
+            }
+          ]
+        },
+        {
+          "dependentKey": {
+            "complainantType": [
+              "commonFields"
+            ]
+          },
+          "body": [
+            {
+              "type": "component",
+              "component": "VerifyPhoneNumber",
+              "key": "complainantVerification",
+              "withoutLabel": true,
+              "label": "PHONE_NUMBER",
+              "name": "mobileNumber",
+              "disableConfigFields": [
+                "firstName",
+                "middleName",
+                "lastName",
+                "pincode",
+                "locationSearch",
+                "pincode",
+                "state",
+                "district",
+                "city",
+                "locality",
+                "addressDetails"
+              ],
+              "error": "ERR_HRMS_INVALID_MOB_NO",
+              "componentInFront": "+91",
+              "disableConfigKey": "isUserVerified",
+              "isMandatory": true,
+              "validation": {
+                "required": true,
+                "minLength": 10,
+                "maxLength": 10,
+                "pattern": {
+                  "patternType": "contact",
+                  "masterName": "commonUiConfig",
+                  "moduleName": "patternValidation"
+                }
+              },
+              "populators": {}
             }
           ]
         },
