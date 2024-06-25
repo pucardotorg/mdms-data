@@ -1309,6 +1309,17 @@
          "serviceCode": "task",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2621,
+         "name": "Verify Join a Case",
+         "url": "/case/case/v1/_verify",
+         "displayName": "Verify Join a Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
       }
    ]
 }
