@@ -7,10 +7,29 @@
         {
           "body": [
             {
-              "type": "radio",
-              "key": "delayApplicationType",
+              "type": "component",
+              "component": "CustomRadioInfoComponent",
+              "key": "delayCondonationType",
               "label": "CS_QUESTION_DELAY_APPLICATION",
               "isMandatory": true,
+              "noteDependentOn": "delayCondonationType.code",
+              "noteDependentOnValue": "YES",
+              "notes": {
+                "type": "component",
+                "component": "SelectCustomNote",
+                "key": "personalDetailsNote",
+                "withoutLabel": true,
+                "populators": {
+                  "inputs": [
+                    {
+                      "infoHeader": "CS_COMMON_NOTE",
+                      "infoText": "CS_DELAY_CONDONATION_APPLICATION_NOT_REQUIRED_TEXT",
+                      "infoTooltipMessage": "CS_NOTE_TOOLTIP_DELAY_CONDONATION_APPLICATION",
+                      "type": "InfoComponent"
+                    }
+                  ]
+                }
+              },
               "populators": {
                 "label": "CS_QUESTION_DELAY_APPLICATION",
                 "type": "radioButton",
@@ -36,8 +55,6 @@
                     "code": "NO",
                     "name": "NO",
                     "showForm": true,
-                    "isVerified": true,
-                    "hasBarRegistrationNo": true,
                     "isEnabled": true
                   }
                 ]
