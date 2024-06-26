@@ -14,6 +14,7 @@
               "isMandatory": true,
               "noteDependentOn": "delayCondonationType.code",
               "noteDependentOnValue": "YES",
+              "withoutLabel": true,
               "notes": {
                 "type": "component",
                 "component": "SelectCustomNote",
@@ -29,6 +30,9 @@
                     }
                   ]
                 }
+              },
+              "labelStyles": {
+                "fontWeight": 700
               },
               "populators": {
                 "label": "CS_QUESTION_DELAY_APPLICATION",
