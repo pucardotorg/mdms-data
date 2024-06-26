@@ -289,7 +289,7 @@
                       {
                         "type": "text",
                         "label": "CS_QUESTION_DELAY_APPLICATION",
-                        "value": "delayApplicationType.name"
+                        "value": "delayCondonationType.name"
                       },
                       {
                         "type": "text",
