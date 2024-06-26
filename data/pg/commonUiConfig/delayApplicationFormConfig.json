@@ -64,7 +64,7 @@
         },
         {
           "dependentKey": {
-            "delayApplicationType": [
+            "delayCondonationType": [
               "showForm"
             ]
           },
@@ -89,7 +89,7 @@
         },
         {
           "dependentKey": {
-            "delayApplicationType": [
+            "delayCondonationType": [
               "showForm"
             ]
           },
@@ -114,7 +114,7 @@
         },
         {
           "dependentKey": {
-            "delayApplicationType": [
+            "delayCondonationType": [
               "showForm"
             ]
           },
