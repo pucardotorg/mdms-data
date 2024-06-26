@@ -19,6 +19,18 @@
       "type": "DOCUMENTARY",
       "subtype": "",
       "isactive": true
+    },
+    {
+      "id": 4,
+      "type": "SWORN_STATEMENT",
+      "subtype": "",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "type": "OTHER",
+      "subtype": "",
+      "isactive": true
     }
   ]
 }

@@ -1309,6 +1309,30 @@
       "actionid": 2615,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_ROLE",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
