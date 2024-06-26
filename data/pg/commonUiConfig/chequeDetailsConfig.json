@@ -137,8 +137,7 @@
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
                   },
-                  "minLength": 11,
-                  "maxLength": 11
+                  "minLength": 11
                 },
                 "name": "ifsc"
               }
