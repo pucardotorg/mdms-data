@@ -171,6 +171,7 @@
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
+                      "JPG",
                       "PDF"
                     ],
                     "isMultipleUpload": false,
@@ -252,9 +253,10 @@
                     "name": "document",
                     "documentHeader": "CS_SWORN_ADDITIONAL_ACTS_DOCUMENT_HEADER",
                     "type": "DragDropComponent",
-                    "maxFileSize": 5,
+                    "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
+                      "JPG",
                       "PDF"
                     ],
                     "uploadGuidelines": "UPLOAD_PDF_50",
