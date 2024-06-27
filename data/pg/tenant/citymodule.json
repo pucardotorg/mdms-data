@@ -89,6 +89,17 @@
           "code": "pg"
         }
       ]
+    },
+    {
+      "module": "DRISTI",
+      "code": "DRISTI",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
     }
   ]
 }
