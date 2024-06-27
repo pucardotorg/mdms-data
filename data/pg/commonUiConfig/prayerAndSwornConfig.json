@@ -175,7 +175,7 @@
                       "PDF"
                     ],
                     "isMultipleUpload": false,
-                    "uploadGuidelines": "UPLOAD_PDF_50"
+                    "uploadGuidelines": "UPLOAD_DOC_50"
                   }
                 ]
               }
@@ -259,7 +259,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "uploadGuidelines": "UPLOAD_PDF_50",
+                    "uploadGuidelines": "UPLOAD_DOC_50",
                     "isMultipleUpload": false
                   }
                 ],
