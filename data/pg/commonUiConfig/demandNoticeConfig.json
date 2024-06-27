@@ -9,7 +9,7 @@
             {
               "type": "component",
               "component": "SelectUserTypeComponent",
-              "key": "SelectUserTypeComponent",
+              "key": "modeOfDispatchType",
               "isMandatory": true,
               "withoutLabel": true,
               "populators": {
@@ -81,12 +81,12 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "legalDemandNoticeFileUpload",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
-                    "name": "legalDemandNoticeFileUpload",
+                    "name": "document",
                     "documentHeader": "LEGAL_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -108,12 +108,12 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "proofOfDispatchFileUpload",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfDispatchFileUpload",
+                    "name": "document",
                     "documentHeader": "PROOF_OF_DISPATCH_LDN",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -201,11 +201,11 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "proofOfAcknowledgmentFileUpload",
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfAcknowledgmentFileUpload",
+                    "name": "document",
                     "documentHeader": "PROOF_LEGAL_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -301,11 +301,11 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "proofOfReplyFileUpload",
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfReplyFileUpload",
+                    "name": "document",
                     "documentHeader": "CS_PROOF_TO_REPLY_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
