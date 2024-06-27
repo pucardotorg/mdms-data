@@ -90,6 +90,7 @@
               "withoutLabel": true,
               "label": "PHONE_NUMBER",
               "name": "mobileNumber",
+              "isVerifiedOtpDisabledKey": "isDuplicateNumber",
               "disableConfigFields": [
                 "firstName",
                 "middleName",
