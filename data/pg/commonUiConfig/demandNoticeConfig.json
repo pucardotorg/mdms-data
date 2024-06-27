@@ -86,7 +86,7 @@
               "populators": {
                 "inputs": [
                   {
-                    "name": "legalDemandNoticeFileUpload",
+                    "name": "document",
                     "documentHeader": "LEGAL_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -110,7 +110,7 @@
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfDispatchFileUpload",
+                    "name": "document",
                     "documentHeader": "PROOF_OF_DISPATCH_LDN",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -197,7 +197,7 @@
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfAcknowledgmentFileUpload",
+                    "name": "document",
                     "documentHeader": "PROOF_LEGAL_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -287,7 +287,7 @@
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfReplyFileUpload",
+                    "name": "document",
                     "documentHeader": "CS_PROOF_TO_REPLY_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
