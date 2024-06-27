@@ -214,7 +214,6 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "witnessAdditionalDetails",
-              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
