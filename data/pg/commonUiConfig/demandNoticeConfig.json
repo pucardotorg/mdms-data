@@ -215,7 +215,10 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": false,
+                    "documentHeaderStyle": {
+                      "textAlign": "left"
+                    }
                   }
                 ]
               }
