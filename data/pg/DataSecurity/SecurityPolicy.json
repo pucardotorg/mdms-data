@@ -356,7 +356,7 @@
         }
       ]
     },
-{
+    {
       "model": "WnSConnection",
       "uniqueIdentifier": {
         "name": "uuid",
@@ -931,6 +931,81 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
-    }
+    },
+    {
+      "model": "CourtCase",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      
+      "attributes": [
+        
+        {
+          "name": "accessCode",
+          "jsonPath": "accessCode",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "mobileNumber",
+          "jsonPath": "additionalDetails/complaintDetails/formdata/*/data/complainantVerification/mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        }
+        
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "CaseDecryptSelf",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      
+      "attributes": [
+        
+        {
+          "name": "accessCode",
+          "jsonPath": "accessCode",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "mobileNumber",
+          "jsonPath": "additionalDetails/complaintDetails/formdata/*/data/complainantVerification/mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+        
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "CaseDecryptOther",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      
+      "attributes": [
+        
+        {
+          "name": "accessCode",
+          "jsonPath": "accessCode",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "mobileNumber",
+          "jsonPath": "additionalDetails/complaintDetails/formdata/*/data/complainantVerification/mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+        
+      ],
+      "roleBasedDecryptionPolicy": []
+    }                
   ]
 }
