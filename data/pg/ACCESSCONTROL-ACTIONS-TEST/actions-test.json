@@ -501,6 +501,18 @@
          "path": ""
       },
       {
+         "id": 2511,
+         "name": "MDMS v2 Search with v1 response type",
+         "url": "/mdms-v2/v1/_search",
+         "parentModule": "",
+         "displayName": "MDMS v2",
+         "orderNumber": 1,
+         "enabled": true,
+         "serviceCode": "MDMS v2",
+         "code": "null",
+         "path": ""
+      },
+      {
          "id": 2312,
          "name": "Document Uploader: Search document",
          "url": "/egov-document-uploader/egov-du/document/_search",

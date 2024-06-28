@@ -221,8 +221,18 @@
           "isMandatory": false
         },
         {
-          "name": "cnr",
-          "path": "Data.cnr.keyword",
+          "name": "assignedRole",
+          "path": "Data.assignedRole",
+          "isMandatory": false
+        },
+        {
+          "name": "cnrNumber",
+          "path": "Data.cnrNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "filingNumber",
+          "path": "Data.filingNumber.keyword",
           "isMandatory": false
         },
         {
@@ -231,40 +241,16 @@
           "isMandatory": false
         },
         {
-          "name": "assignedRole",
-          "path": "Data.assignedRole",
-          "isMandatory": false
-        },
-        {
           "name": "stateSla",
-          "path": "Data.stateSla",
+          "path": "Data.isCompleted",
           "isMandatory": false
         },
         {
           "name": "businessServiceSla",
           "path": "Data.businessServiceSla",
           "isMandatory": false
-        },
-        {
-          "name": "filingNumber",
-          "path": "Data.filingNumber",
-          "isMandatory": false
-        },
-        {
-          "name": "caseTitle",
-          "path": "Data.caseTitle",
-          "isMandatory": false
-        },
-        {
-          "name": "stage",
-          "path": "Data.stage",
-          "isMandatory": false
-        },
-        {
-          "name": "subStage",
-          "path": "Data.subStage",
-          "isMandatory": false
         }
+
       ],
       "sortBy": {
         "path": "Data.isCompleted",
