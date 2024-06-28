@@ -386,9 +386,10 @@
       "formItemName": "CS_DEMAND_NOTICE",
       "className": "demand-notice",
       "selectDocumentName": {
-        "proofOfDispatchFileUpload": "PROOF_OF_DISPATCH_LDN",
-        "proofOfAcknowledgmentFileUpload": "PROOF_LEGAL_DEMAND_NOTICE",
-        "proofOfReplyFileUpload": "CS_PROOF_TO_REPLY_DEMAND_NOTICE"
+        "legalDemandNoticeFileUpload": "LEGAL_DEMAND_NOTICE",
+        "proofOfDispatchFileUpload": "PROOF_OF_DISPATCH_FILE_NAME",
+        "proofOfAcknowledgmentFileUpload": "PROOF_LEGAL_DEMAND_NOTICE_FILE_NAME",
+        "proofOfReplyFileUpload": "CS_PROOF_TO_REPLY_DEMAND_NOTICE_FILE_NAME"
       }
     }
   ]
