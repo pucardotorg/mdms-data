@@ -188,13 +188,13 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalDetails",
-              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
                     "name": "text",
                     "textAreaSubHeader": "CS_ADDITIONAL_DETAILS",
-                    "type": "TextAreaComponent"
+                    "type": "TextAreaComponent",
+                    "isOptional": true
                   }
                 ]
               }
