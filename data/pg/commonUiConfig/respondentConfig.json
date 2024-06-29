@@ -50,6 +50,7 @@
         },
         {
           "head": "CS_RESPONDENT_NAME",
+          "updateLabelOn": "respondentType.showCompanyDetails",
           "updateLabel": {
             "key": "head",
             "value": "CS_COMMON_ENTITY_DETAIL"
