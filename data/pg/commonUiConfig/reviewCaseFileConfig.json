@@ -166,8 +166,8 @@
                       },
                       {
                         "type": "text",
-                        "label": "CS_NAME_SIGNATORY",
-                        "value": "signatory"
+                        "label": "CS_DISHONOURED_CHEQUE_SIGNATORY_NAME",
+                        "value": "chequeSignatoryName"
                       },
                       {
                         "type": "text",
