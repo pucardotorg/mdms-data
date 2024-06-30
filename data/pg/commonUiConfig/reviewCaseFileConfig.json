@@ -23,7 +23,10 @@
                     "config": [
                       {
                         "type": "title",
-                        "value": ["firstName", "lastName"],
+                        "value": [
+                          "firstName",
+                          "lastName"
+                        ],
                         "badgeType": "complainantType.name"
                       },
                       {
@@ -71,7 +74,10 @@
                     "config": [
                       {
                         "type": "title",
-                        "value": ["respondentFirstName", "respondentLastName"],
+                        "value": [
+                          "respondentFirstName",
+                          "respondentLastName"
+                        ],
                         "badgeType": "respondentType.name"
                       },
                       {
@@ -94,16 +100,16 @@
                       {
                         "type": "text",
                         "label": "company_Name",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "REPRESENTATIVE",
                         "value": "companyName"
                       },
                       {
                         "type": "address",
                         "label": "COMPANY_ADDRESS",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "REPRESENTATIVE",
-                        "value": "addressCompanyDetails"
+                        "value": "addressDetails"
                       },
                       {
                         "type": "image",
@@ -223,7 +229,9 @@
                       {
                         "type": "image",
                         "label": "CS_DOCUMENT",
-                        "value": ["debtLiabilityFileUpload.document"]
+                        "value": [
+                          "debtLiabilityFileUpload.document"
+                        ]
                       }
                     ],
                     "data": {}
@@ -291,7 +299,9 @@
                       {
                         "type": "image",
                         "label": "CS_DOCUMENT",
-                        "value": ["condonationFileUpload.document"]
+                        "value": [
+                          "condonationFileUpload.document"
+                        ]
                       }
                     ],
                     "data": {}
@@ -315,7 +325,10 @@
                     "config": [
                       {
                         "type": "title",
-                        "value": ["firstName", "lastName"]
+                        "value": [
+                          "firstName",
+                          "lastName"
+                        ]
                       },
                       {
                         "type": "phonenumber",
@@ -401,7 +414,9 @@
                       {
                         "type": "image",
                         "label": "CS_ID_PROOF",
-                        "value": ["vakalatnamaFileUpload.document"]
+                        "value": [
+                          "vakalatnamaFileUpload.document"
+                        ]
                       }
                     ],
                     "data": {}
