@@ -1320,6 +1320,17 @@
          "serviceCode": "case",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2622,
+         "name": "Inbox get fields for UI",
+         "url": "/inbox/v2/_getFields",
+         "displayName": "Inbox get fields",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "inbox",
+         "code": "null",
+         "path": ""
       }
    ]
 }
