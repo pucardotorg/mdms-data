@@ -93,7 +93,7 @@
                       {
                         "type": "address",
                         "label": "ADDRESS",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "INDIVIDUAL",
                         "value": "addressDetails"
                       },
