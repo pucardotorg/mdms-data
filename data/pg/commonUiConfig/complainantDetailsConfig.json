@@ -267,6 +267,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "companyDetailsUpload",
+              "label": "COMPANY_DOCUMENT_DETAILS",
+              "withoutLabel": true,
               "isMandatory": true,
               "populators": {
                 "inputs": [

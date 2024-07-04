@@ -82,6 +82,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "legalDemandNoticeFileUpload",
+              "label": "LEGAL_DEMAND_NOTICE",
               "isMandatory": true,
               "withoutLabel": true,
               "populators": {
@@ -110,6 +111,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "proofOfDispatchFileUpload",
+              "label": "PROOF_OF_DISPATCH_LDN",
               "isMandatory": true,
               "withoutLabel": true,
               "populators": {
@@ -199,6 +201,9 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "proofOfAcknowledgmentFileUpload",
+              "isMandatory": true,
+              "label": "PROOF_LEGAL_DEMAND_NOTICE",
+              "withoutLabel": true,
               "isDocDependentOn": "proofOfService",
               "isDocDependentKey": "showProofOfAcknowledgment",
               "populators": {
@@ -296,6 +301,9 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "proofOfReplyFileUpload",
+              "isMandatory": true,
+              "label": "CS_PROOF_TO_REPLY_DEMAND_NOTICE",
+              "withoutLabel": true,
               "isDocDependentOn": "proofOfReply",
               "isDocDependentKey": "showProofOfReply",
               "populators": {
