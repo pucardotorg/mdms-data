@@ -11,13 +11,14 @@
               "component": "SelectReviewAccordion",
               "key": "litigentDetails",
               "label": "CS_LITIGENT_DETAILS",
+              "number": 1,
               "withoutLabel": true,
               "textAreaMaxLength": "255",
               "populators": {
                 "inputs": [
                   {
-                    "key": "complaintDetails",
-                    "name": "complaintDetails",
+                    "key": "complainantDetails",
+                    "name": "complainantDetails",
                     "label": "CS_COMPLAINT_DETAILS",
                     "icon": "ComplainantDetailsIcon",
                     "config": [
@@ -38,7 +39,7 @@
                         "type": "image",
                         "label": "CS_ID_PROOF",
                         "value": [
-                          "individualDetails.document",
+                          "complainantVerification.individualDetails.document",
                           "companyDetailsUpload.document"
                         ]
                       },
@@ -93,23 +94,23 @@
                       {
                         "type": "address",
                         "label": "ADDRESS",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "INDIVIDUAL",
                         "value": "addressDetails"
                       },
                       {
                         "type": "text",
                         "label": "company_Name",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "REPRESENTATIVE",
                         "value": "companyName"
                       },
                       {
                         "type": "address",
                         "label": "COMPANY_ADDRESS",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "REPRESENTATIVE",
-                        "value": "addressCompanyDetails"
+                        "value": "addressDetails"
                       },
                       {
                         "type": "image",
@@ -130,6 +131,7 @@
               "component": "SelectReviewAccordion",
               "key": "caseSpecificDetails",
               "label": "CS_CASE_SPECIFIC_DETAILS",
+              "number": 2,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -156,18 +158,13 @@
                       },
                       {
                         "type": "text",
-                        "label": "CS_PAYER_BANK",
-                        "value": "payerbank"
-                      },
-                      {
-                        "type": "text",
                         "label": "CS_PAYEE_BANK",
                         "value": "bankName"
                       },
                       {
                         "type": "text",
-                        "label": "CS_NAME_SIGNATORY",
-                        "value": "signatory"
+                        "label": "CS_DISHONOURED_CHEQUE_SIGNATORY_NAME",
+                        "value": "chequeSignatoryName"
                       },
                       {
                         "type": "text",
@@ -222,6 +219,11 @@
                         "value": "liabilityType.name"
                       },
                       {
+                        "type": "amount",
+                        "label": "CS_PARIAL_AMOUNT",
+                        "value": "totalAmount"
+                      },
+                      {
                         "type": "text",
                         "label": "CS_DEBT_ADDITIONAL_DETAILS",
                         "value": "additionalDebtLiabilityDetails.text"
@@ -245,7 +247,7 @@
                       {
                         "type": "text",
                         "label": "CS_MODE_OF_DISPATCH",
-                        "value": "SelectUserTypeComponent.modeOfDispatchType.name"
+                        "value": "modeOfDispatchType.modeOfDispatchType.name"
                       },
                       {
                         "type": "text",
@@ -271,10 +273,10 @@
                         "type": "image",
                         "label": "CS_DOCUMENT",
                         "value": [
-                          "SelectCustomDragDrop.legalDemandNoticeFileUpload",
-                          "SelectCustomDragDrop.proofOfAcknowledgmentFileUpload",
-                          "SelectCustomDragDrop.proofOfDispatchFileUpload",
-                          "SelectCustomDragDrop.proofOfReplyFileUpload"
+                          "legalDemandNoticeFileUpload.document",
+                          "proofOfAcknowledgmentFileUpload.document",
+                          "proofOfDispatchFileUpload.document",
+                          "proofOfReplyFileUpload.document"
                         ]
                       }
                     ],
@@ -314,6 +316,7 @@
               "component": "SelectReviewAccordion",
               "key": "additionalDetails",
               "label": "CS_ADDITIONAL_DETAILS",
+              "number": 3,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -371,12 +374,23 @@
                       {
                         "type": "text",
                         "label": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
+                        "textDependentOn": "memorandumOfComplaint.document",
+                        "textDependentValue": "Document Attached",
                         "value": "memorandumOfComplaint.text"
                       },
                       {
                         "type": "text",
                         "label": "CS_PRAYER_FOR_RELIEF_HEADER",
+                        "textDependentOn": "prayerForRelief.document",
+                        "textDependentValue": "Document Attached",
                         "value": "prayerForRelief.text"
+                      },
+                      {
+                        "type": "text",
+                        "label": "CS_SWORN_STATEMENT_HEADER",
+                        "textDependentOn": "swornStatement.document",
+                        "textDependentValue": "Document Attached",
+                        "value": "swornStatement.text"
                       },
                       {
                         "type": "text",
@@ -384,10 +398,15 @@
                         "value": "additionalDetails.text"
                       },
                       {
+                        "type": "text",
+                        "label": "CS_SWORN_PAGE_ADDITIONAL_ACTS_SECTIONS_HEADER",
+                        "value": "additionalActsSections.text"
+                      },
+                      {
                         "type": "image",
                         "label": "CS_DOCUMENT",
                         "value": [
-                          "SelectCustomDragDrop.swornStatement",
+                          "swornStatement.document",
                           "memorandumOfComplaint.document",
                           "prayerForRelief.document",
                           "SelectUploadDocWithName"

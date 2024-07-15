@@ -31,6 +31,7 @@
               "label": "CS_PRAYER_AND_SWORN_STATEMENT_TYPE",
               "isMandatory": true,
               "populators": {
+                "name": "prayerAndSwornStatementType",
                 "label": "SELECT_PRAYER_AND_SWORN_STATEMENT_TYPE",
                 "type": "radioButton",
                 "optionsKey": "name",
@@ -61,6 +62,7 @@
             {
               "type": "component",
               "component": "SelectCustomTextArea",
+              "label": "CS_CASE_SETTLEMENT_CONDITION_SUBHEADER",
               "key": "caseSettlementCondition",
               "withoutLabel": true,
               "populators": {
@@ -105,9 +107,7 @@
                     "allowedMaxSizeInMB": 25,
                     "noteMsg": "CS_DOCUMENT_BLURB",
                     "notSupportedError": "NOT_SUPPORTED_ERROR",
-                    "fileTypes": [
-                      "PDF"
-                    ],
+                    "fileTypes": ["PDF"],
                     "isMultipleUpload": true
                   }
                 ]
@@ -144,9 +144,7 @@
                     "maxFileErrorMessage": "CS_FILE_LIMIT_25_MB",
                     "noteMsg": "CS_DOCUMENT_BLURB",
                     "notSupportedError": "NOT_SUPPORTED_ERROR",
-                    "fileTypes": [
-                      "PDF"
-                    ],
+                    "fileTypes": ["PDF"],
                     "isMultipleUpload": true
                   }
                 ]
@@ -159,22 +157,22 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "label": "CS_SWORN_STATEMENT_HEADER",
+              "withoutLabel": true,
+              "key": "swornStatement",
               "populators": {
                 "inputs": [
                   {
                     "isOptional": "CS_IS_OPTIONAL",
-                    "name": "swornStatement",
+                    "name": "document",
                     "documentSubText": "CS_SWORN_STATEMENT_SUBTEXT",
                     "documentHeader": "CS_SWORN_STATEMENT_HEADER",
                     "type": "DragDropComponent",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false,
-                    "uploadGuidelines": "UPLOAD_PDF_50"
+                    "uploadGuidelines": "UPLOAD_DOC_50"
                   }
                 ]
               }
@@ -187,13 +185,15 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalDetails",
-              "isMandatory": true,
+              "label": "CS_ADDITIONAL_DETAILS",
+              "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
                     "name": "text",
                     "textAreaSubHeader": "CS_ADDITIONAL_DETAILS",
-                    "type": "TextAreaComponent"
+                    "type": "TextAreaComponent",
+                    "isOptional": true
                   }
                 ]
               }
@@ -206,6 +206,8 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalActsSections",
+              "label": "CS_SWORN_PAGE_ADDITIONAL_ACTS_SECTIONS_HEADER",
+              "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
@@ -252,12 +254,10 @@
                     "name": "document",
                     "documentHeader": "CS_SWORN_ADDITIONAL_ACTS_DOCUMENT_HEADER",
                     "type": "DragDropComponent",
-                    "maxFileSize": 5,
+                    "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "PDF"
-                    ],
-                    "uploadGuidelines": "UPLOAD_PDF_50",
+                    "fileTypes": ["JPG", "PDF"],
+                    "uploadGuidelines": "UPLOAD_DOC_50",
                     "isMultipleUpload": false
                   }
                 ],
@@ -270,8 +270,8 @@
       "header": "CS_PRAYER_AND_SWORN_STATEMENT_HEADING",
       "className": "prayer-and-sworm",
       "selectDocumentName": {
-        "memorandumOfComplaint": "ATTACHED_DOCUMENT",
-        "prayerForRelief": "ATTACHED_DOCUMENT",
+        "memorandumOfComplaint": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
+        "prayerForRelief": "CS_PRAYER_FOR_RELIEF_HEADER",
         "swornStatement": "CS_SWORN_STATEMENT_HEADER"
       }
     }

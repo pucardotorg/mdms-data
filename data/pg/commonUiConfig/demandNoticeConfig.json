@@ -9,7 +9,8 @@
             {
               "type": "component",
               "component": "SelectUserTypeComponent",
-              "key": "SelectUserTypeComponent",
+              "key": "modeOfDispatchType",
+              "label": "CS_MODE_OF_DISPATCH_TYPE",
               "isMandatory": true,
               "withoutLabel": true,
               "populators": {
@@ -81,21 +82,20 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "legalDemandNoticeFileUpload",
+              "label": "LEGAL_DEMAND_NOTICE",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
-                    "name": "legalDemandNoticeFileUpload",
+                    "name": "document",
                     "documentHeader": "LEGAL_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -108,21 +108,20 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "proofOfDispatchFileUpload",
+              "label": "PROOF_OF_DISPATCH_LDN",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfDispatchFileUpload",
+                    "name": "document",
                     "documentHeader": "PROOF_OF_DISPATCH_LDN",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -192,30 +191,30 @@
           ]
         },
         {
-          "dependentKey": {
-            "proofOfService": [
-              "showProofOfAcknowledgment"
-            ]
-          },
           "body": [
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "proofOfAcknowledgmentFileUpload",
+              "isMandatory": true,
+              "label": "PROOF_LEGAL_DEMAND_NOTICE",
+              "withoutLabel": true,
+              "isDocDependentOn": "proofOfService",
+              "isDocDependentKey": "showProofOfAcknowledgment",
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfAcknowledgmentFileUpload",
+                    "name": "document",
                     "documentHeader": "PROOF_LEGAL_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
-                    "isMultipleUpload": false
+                    "fileTypes": ["JPG", "PDF"],
+                    "isMultipleUpload": false,
+                    "documentHeaderStyle": {
+                      "textAlign": "left"
+                    }
                   }
                 ]
               }
@@ -266,9 +265,7 @@
         },
         {
           "dependentKey": {
-            "proofOfReply": [
-              "showProofOfReply"
-            ]
+            "proofOfReply": ["showProofOfReply"]
           },
           "body": [
             {
@@ -289,29 +286,26 @@
           ]
         },
         {
-          "dependentKey": {
-            "proofOfReply": [
-              "showProofOfReply"
-            ]
-          },
           "body": [
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "proofOfReplyFileUpload",
+              "isMandatory": true,
+              "label": "CS_PROOF_TO_REPLY_DEMAND_NOTICE",
+              "withoutLabel": true,
+              "isDocDependentOn": "proofOfReply",
+              "isDocDependentKey": "showProofOfReply",
               "populators": {
                 "inputs": [
                   {
-                    "name": "proofOfReplyFileUpload",
+                    "name": "document",
                     "documentHeader": "CS_PROOF_TO_REPLY_DEMAND_NOTICE",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -389,9 +383,10 @@
       "formItemName": "CS_DEMAND_NOTICE",
       "className": "demand-notice",
       "selectDocumentName": {
-        "proofOfDispatchFileUpload": "PROOF_OF_DISPATCH_LDN",
-        "proofOfAcknowledgmentFileUpload": "PROOF_LEGAL_DEMAND_NOTICE",
-        "proofOfReplyFileUpload": "CS_PROOF_TO_REPLY_DEMAND_NOTICE"
+        "legalDemandNoticeFileUpload": "LEGAL_DEMAND_NOTICE",
+        "proofOfDispatchFileUpload": "PROOF_OF_DISPATCH_FILE_NAME",
+        "proofOfAcknowledgmentFileUpload": "PROOF_LEGAL_DEMAND_NOTICE_FILE_NAME",
+        "proofOfReplyFileUpload": "CS_PROOF_TO_REPLY_DEMAND_NOTICE_FILE_NAME"
       }
     }
   ]

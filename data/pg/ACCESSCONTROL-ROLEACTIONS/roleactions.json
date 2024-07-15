@@ -585,6 +585,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2511,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "EMPLOYEE",
       "actionid": 2312,
       "actioncode": "",
@@ -765,7 +771,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "ORDER_APPROVER",
+      "rolecode": "ORDER_VIEWER",
       "actionid": 2565,
       "actioncode": "",
       "tenantId": "pg"
@@ -1331,6 +1337,60 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 2621,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2623,
       "actioncode": "",
       "tenantId": "pg"
     }

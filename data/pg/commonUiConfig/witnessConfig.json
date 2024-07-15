@@ -74,6 +74,7 @@
             {
               "type": "component",
               "component": "SelectBulkInputs",
+              "label": "CORE_COMMON_PHONE_NUMBER",
               "key": "phonenumbers",
               "withoutLabel": true,
               "populators": {
@@ -110,6 +111,7 @@
               "type": "component",
               "component": "SelectBulkInputs",
               "key": "emails",
+              "label": "CORE_COMMON_EMAILS",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -214,15 +216,16 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "witnessAdditionalDetails",
-              "isMandatory": true,
+              "label": "CS_TEXTAREA_WITNESS_ADDITIONAL_DETAIL",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
+                    "isOptional": true,
                     "name": "text",
-                    "textAreaHeader": "CS_TEXTAREA_WITNESS_ADDITIONAL_DETAIL",
+                    "textAreaSubHeader": "CS_TEXTAREA_WITNESS_ADDITIONAL_DETAIL",
                     "placeholder": "CS_TEXTAREA_PLACEHOLDER_ADDITIONAL_DETAIL",
-                    "headerClassName": "dristi-font-bold",
+                    "subHeaderClassName": "dristi-font-bold",
                     "type": "TextAreaComponent"
                   }
                 ]
