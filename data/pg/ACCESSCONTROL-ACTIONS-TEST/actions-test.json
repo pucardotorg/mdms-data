@@ -1354,6 +1354,17 @@
          "serviceCode": "hearing",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2642,
+         "name": "Add witness",
+         "url": "/case/v1/add/witness",
+         "displayName": "Add witness",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
       }
    ]
 }
