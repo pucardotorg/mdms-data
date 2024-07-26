@@ -123,6 +123,11 @@
       "description": "HEARING_CLOSER"
     },
     {
+      "code": "HEARING_VIEWER",
+      "name": "HEARING_VIEWER",
+      "description": "HEARING_VIEWER"
+    },
+    {
       "code": "ORDER_CREATOR",
       "name": "ORDER_CREATOR",
       "description": "ORDER_CREATOR"
@@ -251,6 +256,16 @@
       "code": "ADVOCATE_CLERK_ROLE",
       "name": "ADVOCATE_CLERK_ROLE",
       "description": "User will be assigned an advocate-clerk role"
+    },
+    {
+      "code": "NYAY_MITRA_ROLE",
+      "name": "NYAY_MITRA_ROLE",
+      "description": "NYAY_MITRA_ROLE"
+    },
+    {
+      "code": "SUBMISSION_APPROVER",
+      "name": "SUBMISSION_APPROVER",
+      "description": "SUBMISSION_APPROVER"
     }
   ]
 }

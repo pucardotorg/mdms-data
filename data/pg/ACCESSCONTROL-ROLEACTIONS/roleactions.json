@@ -1399,6 +1399,30 @@
       "actionid": 2642,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2637,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_VIEWER",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
