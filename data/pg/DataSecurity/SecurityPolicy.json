@@ -938,7 +938,7 @@
         {
           "name": "payerName",
           "jsonPath": "additionalDetails/payerName",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
@@ -1076,13 +1076,13 @@
         {
           "name": "latitude",
           "jsonPath": "additionalDetails/complainantDetails/formdata/*/data/complainantVerification/individualDetails/addressDetails/coordinates/latitude",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "longitude",
           "jsonPath": "additionalDetails/complainantDetails/formdata/*/data/complainantVerification/individualDetails/addressDetails/coordinates/longitude",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
@@ -1118,7 +1118,7 @@
         {
           "name": "accessCode",
           "jsonPath": "accessCode",
-          "patternId": "004",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
@@ -1297,7 +1297,7 @@
         {
           "name": "payerName",
           "jsonPath": "additionalDetails/payerName",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -1309,8 +1309,8 @@
         {
           "name": "accessCode",
           "jsonPath": "accessCode",
-          "patternId": "004",
-          "defaultVisibility": "MASKED"
+          "patternId": "003",
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "lastName",
@@ -1441,13 +1441,13 @@
         {
           "name": "latitude",
           "jsonPath": "additionalDetails/complainantDetails/formdata/*/data/complainantVerification/individualDetails/addressDetails/coordinates/latitude",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "longitude",
           "jsonPath": "additionalDetails/complainantDetails/formdata/*/data/complainantVerification/individualDetails/addressDetails/coordinates/longitude",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
         {
@@ -1656,13 +1656,13 @@
         {
           "name": "accessCode",
           "jsonPath": "accessCode",
-          "patternId": "004",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "payerName",
           "jsonPath": "additionalDetails/payerName",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
@@ -1800,13 +1800,13 @@
         {
           "name": "latitude",
           "jsonPath": "additionalDetails/complainantDetails/formdata/*/data/complainantVerification/individualDetails/addressDetails/coordinates/latitude",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "longitude",
           "jsonPath": "additionalDetails/complainantDetails/formdata/*/data/complainantVerification/individualDetails/addressDetails/coordinates/longitude",
-          "patternId": "002",
+          "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
@@ -1854,6 +1854,24 @@
         {
           "name": "mobileNumber",
           "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/phonenumbers/mobileNumber",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "lastName",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/lastName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "firstName",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/firstName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "middleName",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/middleName",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
