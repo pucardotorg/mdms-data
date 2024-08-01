@@ -934,11 +934,6 @@
     },
     {
       "model": "CourtCase",
-      "uniqueIdentifier": {
-        "name": "id",
-        "jsonPath": "/id"
-      },
-
       "attributes": [
         {
           "name": "payerName",
@@ -1146,43 +1141,43 @@
         },
         {
           "name": "city",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/city",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/city",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "state",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/state",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/state",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "pincode",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/pincode",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/pincode",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "district",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/district",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/district",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "locality",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/locality",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/locality",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "latitude",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/coordinates/latitude",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/latitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "longitude",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/coordinates/longitude",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/longitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
@@ -1200,47 +1195,87 @@
         },
         {
           "name": "city",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/city",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/city",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "state",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/state",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/state",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "pincode",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/pincode",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/pincode",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "district",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/district",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/district",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "locality",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/locality",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/locality",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "latitude",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/coordinates/latitude",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/latitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "longitude",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/coordinates/longitude",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/longitude",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "respondentLastName",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentLastName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "respondentFirstName",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentFirstName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "respondentMiddleName",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentMiddleName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "lastName",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/lastName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "firstName",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/firstName",
+          "patternId": "003",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "middleName",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/middleName",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         }
       ],
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
       "roleBasedDecryptionPolicy": [
         {
           "roles": [
@@ -1258,11 +1293,6 @@
     },
     {
       "model": "CaseDecryptSelf",
-      "uniqueIdentifier": {
-        "name": "id",
-        "jsonPath": "/id"
-      },
-
       "attributes": [
         {
           "name": "payerName",
@@ -1459,12 +1489,6 @@
         {
           "name": "emailId",
           "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/emails/emailId",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "textfieldValue",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/emails/textfieldValue",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
@@ -1489,18 +1513,6 @@
         {
           "name": "mobileNumber",
           "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/phonenumbers/mobileNumber",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "textfieldValue",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/phonenumbers/textfieldValue",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "addressDetails",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
@@ -1553,26 +1565,8 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "textfieldValue",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/emails/textfieldValue",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "mobileNumber",
           "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/phonenumbers/mobileNumber",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "textfieldValue",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/phonenumbers/textfieldValue",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "addressDetails",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
         },
@@ -1619,36 +1613,6 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "code",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/code",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "name",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/name",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "isEnabled",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/isEnabled",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "commonFields",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/commonFields",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "showCompanyDetails",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/showCompanyDetails",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "respondentLastName",
           "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentLastName",
           "patternId": "003",
@@ -1661,54 +1625,16 @@
           "defaultVisibility": "PLAIN"
         },
         {
-          "name": "companyDetailsUpload",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/companyDetailsUpload",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
           "name": "respondentMiddleName",
           "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentMiddleName",
           "patternId": "003",
           "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "inquiryAffidavitFileUpload",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "document",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "fileName",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/fileName",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "fileStore",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/fileStore",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "documentName",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/documentName",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
-        },
-        {
-          "name": "documentType",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/documentType",
-          "patternId": "003",
-          "defaultVisibility": "PLAIN"
         }
       ],
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
       "roleBasedDecryptionPolicy": [
         {
           "roles": [
@@ -1726,10 +1652,6 @@
     },
     {
       "model": "CaseDecryptOther",
-      "uniqueIdentifier": {
-        "name": "id",
-        "jsonPath": "/id"
-      },
       "attributes": [
         {
           "name": "accessCode",
@@ -1937,43 +1859,43 @@
         },
         {
           "name": "city",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/city",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/city",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "state",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/state",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/state",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "pincode",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/pincode",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/pincode",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "district",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/district",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/district",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "locality",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/locality",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/locality",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "latitude",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/coordinates/latitude",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/latitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "longitude",
-          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/coordinates/longitude",
+          "jsonPath": "additionalDetails/witnessDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/longitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
@@ -1984,98 +1906,50 @@
           "defaultVisibility": "MASKED"
         },
         {
-          "name": "textfieldValue",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/emails/textfieldValue",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
           "name": "mobileNumber",
           "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/phonenumbers/mobileNumber",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
-          "name": "textfieldValue",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/phonenumbers/textfieldValue",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "id",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/id",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
           "name": "city",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/city",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/city",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "state",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/state",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/state",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "pincode",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/pincode",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/pincode",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "district",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/district",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/district",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "locality",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/locality",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/locality",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "latitude",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/coordinates/latitude",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/latitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
         {
           "name": "longitude",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/addressDetails/coordinates/longitude",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "code",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/code",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "name",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/name",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "isEnabled",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/isEnabled",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "commonFields",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/commonFields",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "showCompanyDetails",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentType/showCompanyDetails",
+          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/addressDetails/*/addressDetails/coordinates/longitude",
           "patternId": "003",
           "defaultVisibility": "MASKED"
         },
@@ -2096,41 +1970,17 @@
           "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/respondentMiddleName",
           "patternId": "003",
           "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "companyDetailsUpload",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/companyDetailsUpload",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "fileName",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/fileName",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "fileStore",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/fileStore",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "documentName",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/documentName",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
-        },
-        {
-          "name": "documentType",
-          "jsonPath": "additionalDetails/respondentDetails/formdata/*/data/inquiryAffidavitFileUpload/document/*/documentType",
-          "patternId": "003",
-          "defaultVisibility": "MASKED"
         }
       ],
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
       "roleBasedDecryptionPolicy": [
         {
-          "roles": ["EMPLOYEE"],
+          "roles": [
+            "EMPLOYEE"
+          ],
           "attributeAccessList": [
             {
               "attribute": "otpNumber",
