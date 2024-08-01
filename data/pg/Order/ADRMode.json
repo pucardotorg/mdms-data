@@ -1,0 +1,13 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Order",
+    "ADRMode": [
+      {
+        "id": 1,
+        "code": "MODE_1",
+        "name": "MODE_1",
+        "isactive": true
+      }
+    ]
+  }
+  
