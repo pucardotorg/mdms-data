@@ -23,6 +23,16 @@
         "topic" : "notice-auto-escalation"
       },
       {
+        "businessService": "task-notice",
+        "module": "task",
+        "state": "ISSUE_NOTICE",
+        "action": "NOT_SERVED",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "notice-auto-escalation"
+      },
+      {
         "businessService": "application-order-submission-feedback",
         "module": "application",
         "state": "PENDING_RESPONSE",
