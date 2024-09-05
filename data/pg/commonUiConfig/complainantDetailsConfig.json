@@ -61,9 +61,7 @@
                     "apiDetails": {
                       "serviceName": "/advocate/advocate/v1/_create",
                       "requestKey": "advocates",
-                      "AdditionalFields": [
-                        "barRegistrationNumber"
-                      ]
+                      "AdditionalFields": ["barRegistrationNumber"]
                     }
                   }
                 ],
@@ -78,9 +76,7 @@
         },
         {
           "dependentKey": {
-            "complainantType": [
-              "commonFields"
-            ]
+            "complainantType": ["commonFields"]
           },
           "body": [
             {
@@ -124,9 +120,7 @@
         },
         {
           "dependentKey": {
-            "complainantType": [
-              "commonFields"
-            ]
+            "complainantType": ["commonFields"]
           },
           "body": [
             {
@@ -162,9 +156,7 @@
         },
         {
           "dependentKey": {
-            "complainantType": [
-              "commonFields"
-            ]
+            "complainantType": ["commonFields"]
           },
           "head": "CS_COMMON_COMPLAINANT_DETAIL",
           "updateLabelOn": "complainantType.showCompanyDetails",
@@ -218,7 +210,6 @@
             {
               "type": "text",
               "label": "LAST_NAME",
-              "isMandatory": true,
               "populators": {
                 "name": "lastName",
                 "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
@@ -240,9 +231,7 @@
         {
           "head": "CS_RESPONDENT_COMPANY_DETAIL",
           "dependentKey": {
-            "complainantType": [
-              "showCompanyDetails"
-            ]
+            "complainantType": ["showCompanyDetails"]
           },
           "body": [
             {
@@ -277,10 +266,7 @@
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "uploadGuidelines": "UPLOAD_DOC_50",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": true
                   }
                 ]
@@ -290,9 +276,7 @@
         },
         {
           "dependentKey": {
-            "complainantType": [
-              "complainantLocation"
-            ]
+            "complainantType": ["complainantLocation"]
           },
           "head": "CS_COMPLAINANT_LOCATION",
           "body": [
@@ -399,9 +383,7 @@
         },
         {
           "dependentKey": {
-            "complainantType": [
-              "showCompanyDetails"
-            ]
+            "complainantType": ["showCompanyDetails"]
           },
           "head": "CS_COMPANY_LOCATION",
           "body": [
